@@ -1,0 +1,11 @@
+{
+  "name": "minit-mesyuarat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MinitMesyuarat - penjana minit mesyuarat untuk guru (static website for GitHub Pages)",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "python3 -m http.server 8080 --directory dist"
+  },
+  "engines": { "node": ">=18" }
+}

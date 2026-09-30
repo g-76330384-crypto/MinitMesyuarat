@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<title>MinitMesyuarat – Penjana Minit Mesyuarat untuk Guru</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="MinitMesyuarat: isi maklumat, sistem susun numbering dan format A4 secara automatik, semak pratonton, kemudian cetak atau simpan sebagai PDF.">
+<meta name="theme-color" content="#1d4ed8">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css?v=__HASH__">
+</head>
+<body>
+<header class="top"><div class="bar1"><b class="brand" title="MinitMesyuarat">📝<span class="bt"> MinitMesyuarat</span></b><nav class="nav"><button onclick="baru()">📝 Minit Baharu</button><button id="t2" onclick="showLib()">📁 Dokumen Saya</button></nav><span class="edb chip"><span class="dn" id="dn" onclick="ren()" title="Klik untuk namakan / tukar nama"></span><span id="ss"></span><span class="cs"></span></span><span class="edb1"><button class="pri" onclick="saveDraft()">💾 Simpan Draf</button><button class="pri" onclick="cetak()">🖨 Cetak Minit</button><button onclick="exportDocx()">📄 Word</button></span></div></header><div id="robar"></div>
+<main class="app"><section id="left"></section><section id="right"><div id="pages"></div></section></main><section id="lib"></section>
+<noscript>MinitMesyuarat memerlukan JavaScript untuk berfungsi. Sila aktifkan JavaScript pada pelayar anda.</noscript>
+<script src="assets/vendor/xlsx.full.min.js" onerror="var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';document.head.appendChild(s)"></script>
+<script src="assets/vendor/jszip.min.js" onerror="var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';document.head.appendChild(s)"></script>
+<script src="assets/js/app.js?v=__HASH__"></script>
+</body>
+</html>
